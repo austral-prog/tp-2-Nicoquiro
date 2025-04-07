@@ -1,8 +1,10 @@
-def change():
-    expense = 23.75
-    money = 100
+expense = 23.75
+money = 100
     
-    vuelto = money - expense
+vuelto = money - expense
+
+def change():
+    
 
     pesos = int(vuelto)
     centavos = int((vuelto-pesos)*100)
