@@ -6,7 +6,7 @@ def change():
 
     pesos = int(vuelto)
     centavos = int((vuelto-pesos)*100)
-    print("small_chage")
+    print("Vuelto")
     print("Pesos:")
     print(pesos)
     print("Centavos:")
