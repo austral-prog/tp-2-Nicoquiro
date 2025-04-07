@@ -1,10 +1,11 @@
-def earth():
-    x = "Bangladesh"
-    y = "Barbados"
-    
-    first = x < y
+x = "Bangladesh"
+y = "Barbados"
 
-    second = x > y
+first = x < y
+
+second = x > y
+def earth():
+  
 
     print(f"The result of {x} comes first in the dictionary than {y} is {first}.")
     print(f"The result of {y} comes first in the dictionary than {x} is {second}.")
